@@ -1,6 +1,6 @@
 # GitHub Codespaces ♥️ Jupyter Notebooks
 
-Test.
+A space for random data analysis, data science and machine learning experiments.
 
 Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
 
