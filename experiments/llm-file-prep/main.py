@@ -1,10 +1,13 @@
 import mammoth
 from pptx import Presentation
+from pdfminer.high_level import extract_pages
+from pdfminer.layout import LTTextContainer
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 DOCX = HERE / "test.docx"
 PPTX = HERE / "test.pptx"
+PDFDOC = HERE / "test.pdf"
 with open(DOCX, "rb") as test_doc:
     result = mammoth.convert_to_html(test_doc)
     html = result.value
@@ -30,6 +33,12 @@ print("PYTHON-PPTX")
 print(text_runs)
 # TODO 
 # pdfminer.six for pdf
-#
-#
+print("PDFMINER")
+for page_layout in extract_pages(PDFDOC):
+    for element in page_layout:
+        if isinstance(element, LTTextContainer):
+            print(element.get_text())
+
+
+
 # TODO - convert HTML to markdown with beautifulsoup
