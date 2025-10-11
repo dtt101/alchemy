@@ -12,11 +12,11 @@ print('MAMMOTH')
 print(html)
 print(messages)
 
-from markitdown import MarkItDown
-
-md = MarkItDown(enable_plugins=False) # Set to True to enable plugins
-result = md.convert(DOCX)
-print('MARKITDOWN')
-print(result.text_content)
-print(result.markdown)
-print(result.title)
+# TODO 
+# python-pptx for ppt
+#
+# TODO 
+# pdfminer.six for pdf
+#
+#
+# TODO - convert HTML to markdown with beautifulsoup
