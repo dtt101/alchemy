@@ -31,14 +31,13 @@ for slide in prs.slides:
 
 print("PYTHON-PPTX")
 print(text_runs)
-# TODO 
+
 # pdfminer.six for pdf
 print("PDFMINER")
 for page_layout in extract_pages(PDFDOC):
     for element in page_layout:
         if isinstance(element, LTTextContainer):
             print(element.get_text())
-
 
 
 # TODO - convert HTML to markdown with beautifulsoup

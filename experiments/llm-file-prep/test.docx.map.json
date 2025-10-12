@@ -1,0 +1,61 @@
+{
+  "source": "test.docx",
+  "segments": [
+    {
+      "id": "p-0001",
+      "kind": "paragraph",
+      "para_idx": 0,
+      "text": "I Am a Title",
+      "context_left": "I Am a Title",
+      "context_right": "I Am a Title"
+    },
+    {
+      "id": "p-0002",
+      "kind": "paragraph",
+      "para_idx": 1,
+      "text": "",
+      "context_left": "",
+      "context_right": ""
+    },
+    {
+      "id": "p-0003",
+      "kind": "paragraph",
+      "para_idx": 2,
+      "text": "This is an example document which I made to see how good mammoth is",
+      "context_left": "This is an example document which I made to see how good mammoth is",
+      "context_right": "This is an example document which I made to see how good mammoth is"
+    },
+    {
+      "id": "p-0004",
+      "kind": "paragraph",
+      "para_idx": 3,
+      "text": "",
+      "context_left": "",
+      "context_right": ""
+    },
+    {
+      "id": "p-0005",
+      "kind": "paragraph",
+      "para_idx": 4,
+      "text": "There should be a table next",
+      "context_left": "There should be a table next",
+      "context_right": "There should be a table next"
+    },
+    {
+      "id": "p-0006",
+      "kind": "paragraph",
+      "para_idx": 5,
+      "text": "",
+      "context_left": "",
+      "context_right": ""
+    },
+    {
+      "id": "p-0007",
+      "kind": "paragraph",
+      "para_idx": 6,
+      "text": "",
+      "context_left": "",
+      "context_right": ""
+    }
+  ]
+}
